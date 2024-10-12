@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "inter";
+    src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(0, 0%, 8%);
+    font-family: "inter";
+}
+.cont {
+    /*height: 80%;*/
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 15px;
+    padding: 30px;
+    color: hsl(0, 0%, 100%);
+    background-color:  hsl(0, 0%, 12%);
+    border-radius: 15px;
+}
+.cont > img {
+    border-radius: 50%;
+    width: 70px;
+}
+.name {
+    font-weight: 700;
+    font-size: 30px;
+}
+.addr {
+    color: hsl(75, 94%, 57%);
+    font-size: 13px;
+    font-weight: 600;
+}
+.about {
+    font-size: 10px;
+    font-weight: 400;
+}
+.platcont {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 15px;
+    width: 100%;
+}
+.plat {
+    background-color:  hsl(0, 0%, 20%);
+    font-weight: 700;
+    width: 90%;
+    height: 40px;
+    display: grid;
+    place-content: center;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 13px;
+}
