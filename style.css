@@ -58,3 +58,7 @@ body {
     border-radius: 10px;
     font-size: 13px;
 }
+.plat:hover {
+    color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
